@@ -72,7 +72,6 @@ class TriggerInfoAnalyzer : public edm::EDAnalyzer {
       std::string   datasetName_;
       edm::InputTag triggerResultsTag_;
       edm::InputTag triggerEventTag_;
-      ofstream myfile;
 
       // additional class data memebers
       // these are actually the containers where we will store
